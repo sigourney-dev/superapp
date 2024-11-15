@@ -7,7 +7,8 @@
   "private": true,
   "workspaces": [
     "packages/host-app",
-    "packages/mini-app"
+    "packages/mini-app",
+    "packages/auth"
   ],
   "packageManager": "yarn@3.4.1",
   "scripts": {

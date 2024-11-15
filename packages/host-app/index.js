@@ -8,6 +8,7 @@ ScriptManager.shared.addResolver(async (scriptId, caller) => {
   const resolveURL = Federated.createURLResolver({
     containers: {
       MiniApp: 'http://localhost:8082/[name][ext]',
+      AuthModule: 'http://localhost:8083/[name][ext]',
     },
   });
 
